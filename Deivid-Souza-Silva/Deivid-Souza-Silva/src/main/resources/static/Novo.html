@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Novo</title>
+    <link rel="stylesheet" href="Novo.css">
+</head>
+
+<body>
+    <div class="form">
+            <div class="form-header">
+                <div class="inputBox">
+                    <span>Titulo</span>
+                    <input id="titulo" type="text" placeholder="Preencha o titulo da música" required>
+                </div>
+                <div class="inputBox">
+                    <span>Nome</span>
+                    <input id="nome" type="text" placeholder="Preencha o nome do artista" required>
+                </div>
+                <div class="inputBox">
+                    <span>Ano de lançamento</span>
+                    <input id="ano" type="text" placeholder="Preencha o ano de lançamento" required>
+                </div>
+                <div id="botoes">
+                    <button type="button" id="Container-b" onclick="cancelarCampos()">Cancelar</button>
+                    <button type="button" id="Container-a" onclick="verificarCampos()">Enviar</button>
+                </div>
+                <div id="mensagem-erro" style="color: red; display: none;">
+                   Por favor, preencha todos os campos.
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="Novo.Js"></script>
+</body>
+</html>

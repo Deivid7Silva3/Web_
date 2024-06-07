@@ -1,0 +1,4 @@
+com\example\demo\entity\Musica.class
+com\example\demo\CadastroDeMusicasApplication.class
+com\example\demo\repository\MusicaRepository.class
+com\example\demo\controller\MusicaControlle.class
